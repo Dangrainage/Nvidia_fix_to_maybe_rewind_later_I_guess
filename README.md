@@ -25,7 +25,6 @@ After which the file was filled with:
 
 ```
 #!/bin/bash
-systemctl stop lightdm
 modprobe -r nvidia_drm nvidia_modeset nvidia_uvm nvidia
 modprobe nvidia
 systemctl start lightdm.service
